@@ -68,7 +68,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex mx-4">
-        <button className="bg-[#FFFFFF] py-2 px-4 rounded-full text-[16px] cursor-pointer">
+        <button className="cursor-pointer py-2 px-4 rounded-full text-[16px] bg-[#FFFFFF] hover:bg-[#040B06] border  border-[#999D9A] hover:border-[#040B061A] text-black hover:text-white">
           Request Demo
         </button>
       </div>
@@ -132,7 +132,7 @@ const Navbar = () => {
           </h1>
         </Link>
         <div className="py-2">
-          <button className="bg-[#FFFFFF] py-2 px-4 rounded-full text-[16px] cursor-pointer">
+          <button className="cursor-pointer py-2 px-4 rounded-full text-[16px] bg-[#FFFFFF] hover:bg-[#040B06] border  border-[#999D9A] hover:border-[#040B061A] text-black hover:text-white">
             Request Demo
           </button>
         </div>

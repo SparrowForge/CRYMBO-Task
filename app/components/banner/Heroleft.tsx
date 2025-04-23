@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { MdArrowOutward } from "react-icons/md";
 
 const Heroleft = () => {
     return (
@@ -18,7 +18,11 @@ const Heroleft = () => {
             </h4>
             <div className="flex justify-start items-center gap-[8px]">
                 <button className='cursor-pointer bg-[#040B06] hover:bg-[#FFFFFF] py-3 px-6 rounded-full text-[16px] border border-[#040B061A] hover:border-[#999D9A] text-white hover:text-black'>Get started now</button>
-                <Image src='/asserts/HeroIcon2.svg' alt='image' width={50} height={50}/>
+               
+               <div className='text-[#040B06] bg-white hover:text-white hover:bg-[#040B06] rounded-full p-3 text-2xl cursor-pointer'>
+                     <MdArrowOutward />
+                </div>
+               
             </div>
             
         </div>

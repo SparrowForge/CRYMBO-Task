@@ -17,12 +17,10 @@ const GetInTouch = () => {
             >
 
 
-                <div className="relative hidden md:flex md:px-14 py-6">
+                <div className="relative flex md:px-14 py-6">
                     <Info />
                 </div>
-                <div className="relative flex md:hidden py-6">
-                    <SmallInfo/>
-                </div>
+               
             </div>
         </div>
     );
