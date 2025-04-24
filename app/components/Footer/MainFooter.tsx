@@ -6,7 +6,7 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 const MainFooter = () => {
     return (
         <div className='lg:w-[1200px] md:mx-20 lg:mx-0'>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-between text-center md:text-start">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-between text-center md:text-start md:gap-x-40 lg:gap-0">
 
                 <div className="mb-6 lg:mb-0">
                     <h3 className="text-[20px] lg:text-[16px] font-bold mb-6">Company</h3>

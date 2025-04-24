@@ -48,7 +48,7 @@ const Card = () => {
 
     return (
         <div className="py-14 md:px-14">
-            <div className="flex  md:hidden flex-col justify-between items-start mx-6 gap-[20px] mb-10">
+            <div className="flex  md:hidden flex-col justify-between items-start mx-6 md:mx-0 lg:mx-6 lg:gap-[20px] mb-10">
                 <button className=' py-2 px-4 rounded-full text-[16px] border border-[#040B061A]'>
                     Crymbo pay
                 </button>
