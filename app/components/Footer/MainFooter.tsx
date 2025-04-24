@@ -5,7 +5,7 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 
 const MainFooter = () => {
     return (
-        <div className='md:w-[1200px]'>
+        <div className='lg:w-[1200px]'>
             <div className=" flex flex-col-reverse md:flex-row justify-between text-center md:text-start">
 
                 <div className="mb-6 md:mb-0">

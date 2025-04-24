@@ -9,7 +9,7 @@ const Heroleft = () => {
                 Crypto payment gateway
             </button>
            </div>
-            <h1 className="font-semibold  text-[#FFFFFF] text-[40px] md:text-[74px] leading-[110.000001%]">Start accepting crypto payments today!
+            <h1 className="font-semibold  text-[#FFFFFF] text-[40px] lg:text-[74px] leading-[110.000001%]">Start accepting crypto payments today!
             </h1>
             <h4 className="text-[16px] md:text-[20px] md:leading-[160%]">
                 No hidden fees, instant settlements, and full compliance. Whether you're an online

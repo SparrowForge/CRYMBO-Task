@@ -10,7 +10,7 @@ const BannerLayout = () => {
                 className="w-full relative flex flex-col items-center text-center p-6 bg-white "
             >
                 <div
-                    className="absolute inset-0 h-[1100px] md:h-[925px]"
+                    className="absolute inset-0 h-[1100px] md:h-[985px] lg:h-[925px]"
                     style={{
                         backgroundImage: `url('/svg/bgBanner.svg')`,
                         backgroundSize: "cover",
@@ -21,7 +21,7 @@ const BannerLayout = () => {
               
 
 
-                <div className="relative z-10 md:px-10 py-5 md:w-[1200px] ">
+                <div className="relative z-10 lg:px-10 py-5 lg:w-[1200px] ">
 
                     <Navbar />
                     <Banner />

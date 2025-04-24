@@ -35,7 +35,7 @@ const Table = () => {
         },
     ];
     return (
-        <div className="flex flex-col justify-center md:w-[1200px] ">
+        <div className="flex flex-col justify-center lg:w-[1200px] ">
             <div className="text-center mb-4 md:mb-12">
                 <h2 className="text-[40px] md:text-[60px] font-semibold  md:mb-4">Competitive Advantage</h2>
             </div>
