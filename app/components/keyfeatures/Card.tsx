@@ -51,7 +51,7 @@ const Card = () => {
             <h1 className="text-[40px] md:text-[60px] text-center font-semibold md:leading-[110.00000001%]">
                 Key features of <br/> crymbo pay
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-[30px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-[30px]">
                 {data.map((card) => (
 
                     <div
