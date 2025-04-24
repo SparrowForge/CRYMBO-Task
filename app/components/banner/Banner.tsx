@@ -6,7 +6,7 @@ import HeroRight from "./HeroRight";
 
 const Banner = () => {
     return (
-        <div id="home" className="flex flex-col md:flex-row justify-between items-center">
+        <div id="home" className="flex flex-col lg:flex-row justify-between items-center">
             <div className=" lg:w-[640px]">
                 <Heroleft />
             </div>

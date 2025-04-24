@@ -3,13 +3,13 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Heroleft = () => {
     return (
-        <div className="flex flex-col justify-between text-start text-[#FFFFFF] mt-[28px] md:mt-[16px] gap-[10px]">
+        <div className="flex flex-col justify-between text-start text-[#FFFFFF] mt-[28px] md:mt-[40px] lg:mt-[16px] gap-[10px] md:mx-10 lg:mx-0">
            <div>
            <button className='bg-[#F0FFF9]/15 py-2 px-4 rounded-full text-[16px]'>
                 Crypto payment gateway
             </button>
            </div>
-            <h1 className="font-semibold  text-[#FFFFFF] text-[40px] lg:text-[74px] leading-[110.000001%]">Start accepting crypto payments today!
+            <h1 className="font-semibold  text-[#FFFFFF] text-[40px] md:text-[56px] lg:text-[74px] leading-[110.000001%]">Start accepting crypto payments today!
             </h1>
             <h4 className="text-[16px] md:text-[20px] md:leading-[160%]">
                 No hidden fees, instant settlements, and full compliance. Whether you're an online
