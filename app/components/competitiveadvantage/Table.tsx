@@ -44,9 +44,9 @@ const Table = () => {
             <table className="table-fixed w-full">
                     <thead>
                         <tr className=" mb-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold md:w-[380px]">Feature</th>
-                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold md:w-[409px]">Crymbo Pay</th>
-                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold md:w-[409px]">Other Payment Gateways</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold lg:w-[380px]">Feature</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold lg:w-[409px]">Crymbo Pay</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold lg:w-[409px]">Other Payment Gateways</th>
                         </tr>
                     </thead>
 
@@ -54,7 +54,7 @@ const Table = () => {
                     <tbody>
                         {data.map((item, index) => (
                             <tr key={index} className="border-b-4 border-white text-sm md:text-[16px]">
-                                <td className="px-4 md:px-6  py-4 text-sm md:text-[16px]  bg-[#F5F9F7] md:w-[175px]">{item.feature}</td>
+                                <td className="px-4 md:px-6  py-4 text-sm md:text-[16px]  bg-[#F5F9F7] lg:w-[175px]">{item.feature}</td>
                                 <td className="px-4 md:px-6  py-4 text-sm md:text-[16px]  bg-[#F5F9F7]">
                                     <div className="flex justify-start items-center gap-1">
                                         <Image
