@@ -35,7 +35,7 @@ const Table = () => {
         },
     ];
     return (
-        <div className="flex flex-col justify-center lg:w-[1200px] ">
+        <div className="flex flex-col justify-center xl:w-[1200px] ">
             <div className="text-center mb-4 md:mb-12">
                 <h2 className="text-[40px] md:text-[60px] font-semibold  md:mb-4">Competitive Advantage</h2>
             </div>
@@ -44,9 +44,9 @@ const Table = () => {
             <table className="table-fixed w-full">
                     <thead>
                         <tr className=" mb-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold lg:w-[380px]">Feature</th>
-                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold lg:w-[409px]">Crymbo Pay</th>
-                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold lg:w-[409px]">Other Payment Gateways</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold xl:w-[380px]">Feature</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold xl:w-[409px]">Crymbo Pay</th>
+                            <th className="px-4 md:px-6 py-3 text-left text-sm md:text-[18px] font-semibold xl:w-[409px]">Other Payment Gateways</th>
                         </tr>
                     </thead>
 
@@ -54,7 +54,7 @@ const Table = () => {
                     <tbody>
                         {data.map((item, index) => (
                             <tr key={index} className="border-b-4 border-white text-sm md:text-[16px]">
-                                <td className="px-4 md:px-6  py-4 text-sm md:text-[16px]  bg-[#F5F9F7] lg:w-[175px]">{item.feature}</td>
+                                <td className="px-4 md:px-6  py-4 text-sm md:text-[16px]  bg-[#F5F9F7] xl:w-[175px]">{item.feature}</td>
                                 <td className="px-4 md:px-6  py-4 text-sm md:text-[16px]  bg-[#F5F9F7]">
                                     <div className="flex justify-start items-center gap-1">
                                         <Image

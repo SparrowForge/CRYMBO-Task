@@ -47,7 +47,7 @@ const Card = () => {
     ];
 
     return (
-        <div className="flex flex-col justify-center lg:w-[1200px] md:gap-[60px]">
+        <div className="flex flex-col justify-center xl:w-[1200px] md:gap-[60px]">
             <h1 className="text-[40px] md:text-[60px] text-center font-semibold  mx-10">
                 Why choose crymbo pay?
             </h1>
@@ -56,7 +56,7 @@ const Card = () => {
 
                     <div
                         key={card.id}
-                        className=" bg-[#F5F9F7] m-6 md:m-0 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-white transition-shadow duration-300 md:w-[380px] "
+                        className=" bg-[#F5F9F7] m-6 md:m-0 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-white transition-shadow duration-300"
                     >
                         <div className="relative flex justify-center items-center py-4">
                             <div

@@ -49,7 +49,7 @@ const Card = () => {
     return (
         <div className="py-14 md:px-14">
             <div className="flex  md:hidden flex-col justify-between items-start mx-6 md:mx-0 lg:mx-6 lg:gap-[20px] mb-10">
-                <button className=' py-2 px-4 rounded-full text-[16px] border border-[#040B061A]'>
+                <button className=' BTN'>
                     Crymbo pay
                 </button>
                 <h2 className="text-[40px] md:text-[60px] font-semibold md:leading-[110.00000001%]">Who is Crymbo <br />Pay for?</h2>
@@ -61,7 +61,7 @@ const Card = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 mx-6 md:mx-0">
                 <div className="hidden md:flex flex-col justify-start items-start gap-[20px] lg:col-span-2">
-                    <button className=' py-2 px-4 rounded-full text-[16px] border border-[#040B061A]'>
+                    <button className=' BTN'>
                         Crymbo pay
                     </button>
                     <h2 className="text-[40px] md:text-[44px] lg:text-[60px] font-semibold md:leading-[110.00000001%]">Who is Crymbo <br />Pay for?</h2>

@@ -12,7 +12,7 @@ import WhyChooseCrymbo from "./components/whyChoosecrymbo/WhyChooseCrymbo";
 
 export default function Home() {
   return (
-    <div className="w-full font-sans text-[#040B06]">
+    <div className=" font-sans text-[#040B06]">
       <BannerLayout />
       <WhyChooseCrymbo />
       <HowCrymboPayWork />

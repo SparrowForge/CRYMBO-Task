@@ -9,7 +9,7 @@ const HeroRight = () => {
                     <div>
                         <Image src='/asserts/HeroIcon.png' alt='image' width={24} height={24} />
                     </div>
-                    <div className="text-start text-lg lg:text-md">
+                    <div className="text-start text-lg lg:text-sm">
                         <h1>Sign up now and start processing crypto payments!</h1>
                     </div>
                 </div>
@@ -25,8 +25,8 @@ const HeroRight = () => {
                 </div>
             </div>
 
-            <div className="px-6 py-4 md:py-0 md:w-[600px]">
-                <Image src='/asserts/HeroImg.png' alt='image' width={615.33} height={715.06} />
+            <div className="px-6 py-4 md:py-0 md:w-[600px] lg:w-[450px] xl:w-[500px] xl:ml-20">
+                <Image src='/asserts/HeroImg.svg' alt='image' width={615.33} height={715.06} />
             </div>
             <div className="flex justify-end mr-16 md:mr-48 lg:mr-32">
                 <Image src='/asserts/shadowunderhero.png' alt='image' width={181} height={7} />

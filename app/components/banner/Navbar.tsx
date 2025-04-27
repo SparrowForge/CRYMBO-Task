@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[71px] rounded-full bg-[#030C07]/20 flex justify-between items-center">
+    <div className="w-full py-4 rounded-full bg-[#030C07]/20 flex justify-between items-center">
 
       <div className="flex lg:hidden ml-[20px]">
         <Image src="/asserts/logo.png" alt="image" width={149} height={35.28} />
@@ -68,7 +68,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex mx-4">
-        <button className="cursor-pointer py-2 px-4 rounded-full text-[16px] bg-[#FFFFFF] hover:bg-[#040B06] border  border-[#999D9A] hover:border-[#040B061A] text-black hover:text-white">
+        <button className="BTNWhite">
           Request Demo
         </button>
       </div>
