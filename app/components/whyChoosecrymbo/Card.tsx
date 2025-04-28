@@ -47,7 +47,7 @@ const Card = () => {
     ];
 
     return (
-        <div className="flex flex-col justify-center xl:w-[1200px] md:gap-[60px]">
+        <div className="flex flex-col justify-center wapper md:gap-[60px]">
             <h1 className="text-[40px] md:text-[60px] text-center font-semibold  mx-10">
                 Why choose crymbo pay?
             </h1>

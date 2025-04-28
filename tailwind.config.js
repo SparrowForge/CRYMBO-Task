@@ -9,6 +9,9 @@ module.exports = {
         fontFamily: {
           sans: ['Inter Tight', 'sans-serif'],
         },
+        // screens: {
+        //   'xl': '1200px'
+        // },
       },
     },
     plugins: [],
