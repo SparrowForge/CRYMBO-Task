@@ -8,11 +8,29 @@ html {
 body {
   font-family: 'Inter Tight', sans-serif;
 }
+
 @media (min-width: 1280px) {
   .wapper {
     width: 1200px;
     margin: 0 auto; 
   }
+}
+
+.title {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 110%;
+  background: linear-gradient(90deg, #F0FFF9 0%, #F0FFF999 60%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle {
+  padding: 6px 0;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(90deg, #F0FFF9 0%, #F0FFF999 60%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .BTN{
@@ -61,10 +79,13 @@ body {
   color: #3E4440;
   transition: all 300ms ease-in-out 150ms;
   text-decoration: none;
+  
 }
 
 .customLink:hover {
+  margin-left: 10px;
   color: black;
+  font-weight: bold;
   transform: translateY(-4px) scale(1.10);
   text-decoration: underline;
   text-underline-offset: 2px;

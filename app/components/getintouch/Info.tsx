@@ -10,8 +10,8 @@ const Info = () => {
                         Crypto payment gateway
                     </button>
                 </div>
-                <h1 className="hidden md:flex font-semibold  text-[#FFFFFF] md:text-[40px] lg:text-[56px] leading-[110.000001%]">Get in touch request <br />a demo today!</h1>
-                <h1 className="flex md:hidden font-semibold  text-[#FFFFFF] text-4xl  leading-[110.000001%]">Get in touch request a demo today!</h1>
+                <h1 className="hidden md:flex title md:text-[40px] lg:text-[56px] pb-2">Get in touch request <br />a demo today!</h1>
+                <h1 className="flex md:hidden font-semibold  title text-4xl ">Get in touch request a demo today!</h1>
 
                 <div className="flex justify-start items-center gap-[8px]">
                     <button className='BTNBlack'>Get free trial</button>

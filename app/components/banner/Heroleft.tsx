@@ -9,13 +9,13 @@ const Heroleft = () => {
                 Crypto payment gateway
             </button>
            </div>
-            <h1 className="font-semibold  text-[#FFFFFF] text-[40px] md:text-[56px] xl:text-[74px] leading-[110.000001%]">Start accepting crypto payments today!
+            <h1 className="title text-[40px] md:text-[56px] xl:text-[80px] pb-2">Start accepting crypto payments today!
             </h1>
-            <h4 className="text-[16px] md:text-[20px] md:leading-[160%]">
+            <p className="text-[16px] md:text-[20px] subtitle">
                 No hidden fees, instant settlements, and full compliance. Whether you're an online
                 store, an EMI, or a financial service provider, crymbo pay ensures seamless transactions
                 across multiple blockchains.
-            </h4>
+            </p>
             <div className="flex justify-start items-center gap-[8px]">
                 <button className='BTNBlack'>Get started now</button>
                
