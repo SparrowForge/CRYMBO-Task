@@ -32,16 +32,16 @@ const Navbar = () => {
       <Link href="#home" className="cursor-pointer">
         <h1
           onClick={() => handleClick('Home')}
-          className={`${activeButton === 'Home' ? 'text-[#FFFFFF]' : 'text-[#7A9188]'
-            } cursor-pointer py-2 font-semibold`}
+          className={`${activeButton === 'Home' ? 'text-[#FFFFFF]' : 'text-[#7A9188]  transition delay-150 duration-300 ease-in-out hover:scale-130'
+            } cursor-pointer py-2 font-semibold `}
         >
           Home
         </h1>
         </Link>
-        <Link href="#whychoose" className="cursor-pointer">
+        <Link href="#whychoose" className=" cursor-pointer">
         <h1
           onClick={() => handleClick('Why choose')}
-          className={`${activeButton === 'Why choose' ? 'text-[#FFFFFF]' : 'text-[#7A9188]'
+          className={`${activeButton === 'Why choose' ? 'text-[#FFFFFF]' : 'text-[#7A9188]  transition delay-150 duration-300 ease-in-out hover:scale-130'
             } cursor-pointer py-2 font-semibold`}
         >
           Why choose
@@ -50,7 +50,7 @@ const Navbar = () => {
         <Link href="#aboutus" className="cursor-pointer">
         <h1
           onClick={() => handleClick('About Us ?')}
-          className={`${activeButton === 'About Us ?' ? 'text-[#FFFFFF]' : 'text-[#7A9188]'
+          className={`${activeButton === 'About Us ?' ? 'text-[#FFFFFF]' : 'text-[#7A9188]  transition delay-150 duration-300 ease-in-out hover:scale-130'
             } cursor-pointer py-2 font-semibold`}
         >
           About Us ?
@@ -59,7 +59,7 @@ const Navbar = () => {
         <Link href="#features" className="cursor-pointer">
           <h1
             onClick={() => setActiveButton('Features')}
-            className={`${activeButton === 'Features' ? 'text-[#FFFFFF]' : 'text-[#7A9188]'
+            className={`${activeButton === 'Features' ? 'text-[#FFFFFF]' : 'text-[#7A9188]  transition delay-150 duration-300 ease-in-out hover:scale-130'
               } py-2 font-semibold`}
           >
             Features
@@ -98,7 +98,7 @@ const Navbar = () => {
        <Link href="#home" className="cursor-pointer">
         <h1
           onClick={() => handleClick('Home')}
-          className={`${activeButton === 'Home' ? 'text-[#FFFFFF]' : 'text-[#7A9188]'
+          className={`${activeButton === 'Home' ? 'text-[#FFFFFF] ' : 'text-[#7A9188] transition delay-150 duration-300 ease-in-out hover:scale-130'
             } cursor-pointer py-2 font-semibold`}
         >
           Home
