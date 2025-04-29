@@ -11,7 +11,7 @@ body {
 @media (min-width: 1280px) {
   .wapper {
     width: 1200px;
-    margin: 0 auto; /* optional centering */
+    margin: 0 auto; 
   }
 }
 
@@ -56,6 +56,22 @@ body {
   color: black;
   border: 2px solid #999D9A;
 }
+
+.customLink {
+  color: #3E4440;
+  transition: all 300ms ease-in-out 150ms;
+  text-decoration: none;
+}
+
+.customLink:hover {
+  color: black;
+  transform: translateY(-4px) scale(1.10);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+
+
 
 /* :root {
   --background: #ffffff;
