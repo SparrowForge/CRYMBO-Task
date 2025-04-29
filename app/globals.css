@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;1,500&display=swap');
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter Tight', sans-serif;
 }
-.wapper {
+@media (min-width: 1280px) {
+  .wapper {
     width: 1200px;
+    margin: 0 auto; /* optional centering */
   }
+}
 
 .BTN{
   padding: 8px 16px;
